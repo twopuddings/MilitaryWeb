@@ -1,0 +1,146 @@
+.page {
+	width: 903px;
+	margin: auto;
+}
+
+.header {
+	height: 146px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0px;
+	line-height: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.header h1 {
+	float: left;
+	line-height: 100px;
+	width: 274px;
+}
+
+/* img1 height:146px; width:534px */
+
+.title_img1 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 146px;
+	width: 534px;
+}
+
+.title_img2 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.menu {
+	width: 100%;
+	float: left;
+	margin-left: 1px;
+	z-index: 1000;
+}
+
+.menu a {
+	text-decoration: none;
+	z-index: 1000;
+}
+
+.menu ul {
+	z-index: 1000;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.menu li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.menu ul li ul {
+	position: absolute;
+	display: none;
+}
+
+.menu ul li ul li {
+	float: none;
+}
+
+.menu ul li:hover ul {
+	display: block;
+}
+
+.menu ul li a {
+	width: 149px;
+	line-height: 40px;
+	color: white;
+	background: deepskyblue;
+	text-align: center;
+	border: 1px solid lightblue;
+	border-right: none;
+	display: block;
+}
+
+.menu ul li a:hover {
+	color: white;
+	background: skyblue;
+}
+
+.centant {
+	float: left;
+	margin-top: 5px;
+	overflow: hidden;
+	position: relative;
+	width: 903px;
+	height: 500px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 0px;
+	z-index: 0;
+}
+
+.centant .imgcss {
+	animation: scoll 30s linear 0s infinite;
+}
+
+.centant ul {
+	width: 5418px;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+
+.centant ul:hover {
+	animation-play-state: paused;
+}
+
+.centant ul li {
+	float: left;
+}
+
+@keyframes scoll {
+	from {
+		left: 0;
+	}
+
+	to {
+		left: -4000px;
+	}
+}
+
+.imgcss img{
+	height: 500px;
+}
+
+.footer {
+	margin-top: 5px;
+	background: deepskyblue;
+	width: 100%;
+	text-align: center;
+	float: left;
+}

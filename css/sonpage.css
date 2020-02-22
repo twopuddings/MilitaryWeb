@@ -1,0 +1,170 @@
+.page {
+	width: 903px;
+	margin: auto;
+	background: deepskyblue;
+}
+
+.header {
+	height: 146px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0px;
+	line-height: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.header h1 {
+	float: left;
+	line-height: 100px;
+	width: 274px;
+}
+
+/* img1 height:146px; width:534px */
+
+.title_img1 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 146px;
+	width: 534px;
+}
+
+.title_img2 {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.menu {
+	width: 100%;
+	float: left;
+	margin-left: 1px;
+	z-index: 1000;
+}
+
+.menu a {
+	z-index: 1000;
+	text-decoration: none;
+}
+
+.menu ul {
+	z-index: 1000;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.menu li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.menu ul li ul {
+	position: absolute;
+	display: none;
+}
+
+.menu ul li ul li {
+	float: none;
+}
+
+.menu ul li:hover ul {
+	display: block;
+}
+
+.menu ul li a {
+	width: 149px;
+	line-height: 40px;
+	color: white;
+	background: deepskyblue;
+	text-align: center;
+	border: 1px solid lightblue;
+	border-right: none;
+	display: block;
+}
+
+.menu ul li a:hover {
+	color: white;
+	background: skyblue;
+}
+
+.centant {
+	float: left;
+	margin-top: 5px;
+	overflow: hidden;
+	position: relative;
+	width: 903px;
+	height: 500px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 0px;
+}
+
+.centant .imgcss {
+	animation: scoll 20s linear 0s infinite;
+}
+
+.centant ul {
+	width: 5418px;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+
+.centant ul:hover {
+	animation-play-state: paused;
+}
+
+.centant ul li {
+	float: left;
+	margin-right: 5px;
+}
+
+@keyframes scoll {
+	from {
+		left: 0;
+	}
+
+	to {
+		left: -1800px;
+	}
+}
+
+.imgcss img {
+	height: 500px;
+}
+
+.footer {
+	margin-top: 5px;
+	background: deepskyblue;
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+
+.form_table{
+	width: 800px;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form_table th{
+	border: 1px;
+	height: 50px;
+	border-style: solid;
+	border-color: black;
+}
+
+.form_table tr textarea{
+	text-align: left;
+	height: 80px;
+	width: 200px;
+}
